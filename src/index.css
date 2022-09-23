@@ -1,0 +1,54 @@
+:root {
+  font-family: Montserrat;
+}
+
+.container {
+  margin: auto;
+  width: max(300px, 50vw);
+  margin-top: 35px;
+  display: grid;
+  grid-row-gap: 1rem;
+}
+.container-header {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+
+.steps-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.step-index {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 30px;
+  margin: auto;
+  height: 30px;
+}
+.hide-step-details {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+
+.details-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.active-step {
+  background-color: blue;
+  color: white;
+}
+
+.error-form {
+  border-color: red;
+}
+
+.dirty-step {
+  border-color: red;
+}
